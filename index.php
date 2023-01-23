@@ -9,14 +9,18 @@ function kek() {
    print("lolo");
    $k = 1;
     if ($k == 12) {
-      if ($USER->GetID() == 1) {
+      if ($USER->GetID() == 12) {
         print("Hello world!");
     }  
   }
 }
 
 if (!empty($arResult)) {
-	$a = 12;
+    $a = 12;
+}
+
+if (!$arResult) {
+    #..
 }
 
 
