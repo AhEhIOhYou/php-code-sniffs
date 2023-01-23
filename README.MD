@@ -5,6 +5,5 @@
 
 3. В отдельном стандарте "dumpFunction" проверить, что во всех функциях, объявленных в текущем файле, любой вывод обернут в if, проверяющий условие $USER->GetID() == 1
 
-![Image alt](https://github.com/AhEhIOhYou/php-code-sniffs/blob/main/screenshots/1.png)
 
 ![Image alt](https://github.com/AhEhIOhYou/php-code-sniffs/blob/main/screenshots/2.png)
