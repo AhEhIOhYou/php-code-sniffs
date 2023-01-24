@@ -16,10 +16,12 @@ function kek() {
 }
 
 if (!empty($arResult)) {
+    $arr = array();
     $a = 12;
 }
 
 if (!$arResult) {
+    $mda = [];
     #..
 }
 
