@@ -17,7 +17,7 @@ class BadMethodSniff implements Sniff
 		$tokens = $phpcsFile->getTokens();
 		$next = $phpcsFile->findNext(T_WHITESPACE, $stackPtr + 1, null, true);
 		if ($tokens[$next]['code'] === T_STRING && $tokens[$next]['content'] === 'GetNextElement') {
-			$phpcsFile->addWarning('Use GetNext() instead of GetNextElement()', $stackPtr, 'BadMethod');
+			$phpcsFile->addWarning('Use fetch() instead of GetNextElement()', $stackPtr, 'BadMethod');
 		}
 	}
 	

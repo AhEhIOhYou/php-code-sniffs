@@ -7,6 +7,7 @@ use PHP_CodeSniffer\Files\File;
 
 class IfEmptyArResultSniff implements Sniff
 {
+	//В коде if (!empty($arResult)) просить заменить на if (!$arResult)
 	public function register()
 	{
 		return [T_IF];
