@@ -11,3 +11,8 @@
 4. Объявления массивов через Array() и array() ругать, нужно использовать синтаксис []
 
 ![Image alt](https://github.com/AhEhIOhYou/php-code-sniffs/blob/main/screenshots/3.png)
+
+5. В отдельном стандарте "OldOrmClass": метод Add должен быть динамическим, содержать использование глобальной переменной $DB и вызов $DB->Add()
+6. В отдельном стандарте "OldOrmClass": метод Update должен быть динамическим, содержать использование глобальной переменной $DB и вызов $DB->PrepareUpdate(), $DB->Query
+
+![Image alt](https://github.com/AhEhIOhYou/php-code-sniffs/blob/main/screenshots/4.png)
